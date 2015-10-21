@@ -26,5 +26,11 @@ namespace UnitTestLibrary
             Assert.AreEqual(expected, actual, tolerance);
         }
 
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Assert.AreEqual(0, 1);
+        }
+
     }
 }
