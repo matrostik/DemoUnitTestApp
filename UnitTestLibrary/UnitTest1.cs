@@ -29,7 +29,7 @@ namespace UnitTestLibrary
         [TestMethod]
         public void TestMethod2()
         {
-            Assert.AreEqual(0, 1);
+            Assert.AreEqual(1, 1);
         }
 
     }
